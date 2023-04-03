@@ -27,7 +27,7 @@ bot.on("message", async (msg) => {
         model: "text-davinci-003",
         prompt: msg.text,
         temperature: 0.9,
-        max_tokens: 1000,
+        max_tokens: 100,
       });
       const reply = response.data.choices[0].text;
       bot.sendMessage(chatId, reply);
