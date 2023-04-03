@@ -1,0 +1,19 @@
+{
+  "name": "hermionegranger",
+  "version": "1.0.0",
+  "description": "Study_bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fisayo Ojo",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "node-telegram-bot-api": "^0.61.0",
+    "nodemon": "^2.0.21",
+    "openai": "^3.2.1",
+    "socks5-https-client": "^1.2.1"
+  }
+}
